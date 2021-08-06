@@ -1,0 +1,29 @@
+42 Libft
+
+Memset
+Bzero
+Memcpy
+Memccpy
+Memmove 
+Memchr 
+Memcmp 
+Strlen - DONE
+Strdup
+Strcpy
+Strncpy
+strcat
+strncat
+strlcat
+strchar
+strrchar
+strstr
+strnstr
+strcmp
+strncmp
+atoi
+isalpha - done
+isalnum - done
+isascii - done
+isprint
+toupper - done
+tolower - done
