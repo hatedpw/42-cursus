@@ -9,10 +9,10 @@ Memchr
 Memcmp 
 Strlen - DONE
 Strdup
-Strcpy
-Strncpy
-strcat
-strncat
+Strcpy - done
+Strncpy - done
+strcat - done
+strncat - done
 strlcat
 strchar
 strrchar
@@ -24,6 +24,6 @@ atoi
 isalpha - done
 isalnum - done
 isascii - done
-isprint
+isprint - done
 toupper - done
 tolower - done
