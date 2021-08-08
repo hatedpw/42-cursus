@@ -1,29 +1,26 @@
 42 Libft
 
-Memset
-Bzero
-Memcpy
-Memccpy
-Memmove 
-Memchr 
-Memcmp 
-Strlen - DONE
-Strdup
-Strcpy - done
-Strncpy - done
-strcat - done
-strncat - done
-strlcat
-strchar
-strrchar
-strstr
-strnstr
-strcmp
-strncmp
-atoi
 isalpha - done
-isalnum - done
+isdigit - done
+isalnum - done 
 isascii - done
 isprint - done
+strlen - done
+memset
+bzero
+memcpy
+memove
+strlcpy
+strlcat - done
 toupper - done
 tolower - done
+strchr - done
+strrchr - done
+strncmp - 
+memchr
+memcmp
+strnstr
+atoi - done
+
+strdup - done
+calloc 
