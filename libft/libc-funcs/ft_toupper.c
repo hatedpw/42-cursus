@@ -1,5 +1,5 @@
 #include "libft.h"
-
+/* changes char to upper */
 int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')

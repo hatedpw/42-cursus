@@ -1,26 +1,41 @@
 42 Libft
 
-isalpha - done
-isdigit - done
-isalnum - done 
-isascii - done
-isprint - done
-strlen - done
-memset
-bzero
-memcpy
-memove
-strlcpy
-strlcat - done
-toupper - done
-tolower - done
-strchr - done
-strrchr - done
-strncmp - 
-memchr
-memcmp
-strnstr
+isalpha - d
+isdigit - d
+isalnum -  done
+isascii - d
+isprint - d
+strlen -d
+memset -d
+bzero - done 
+memcpy - d
+memove - d
+strlcpy -d
+strlcat -d
+toupper - d
+tolower - d
+strchr - d
+strrchr - d
+strncmp -d 
+memchr - d
+memcmp -  d
+strnstr - d
 atoi - done
+strdup - d
+calloc - 
 
-strdup - done
-calloc 
+
+
+Additional;
+substr
+strjoin
+strtrim
+split
+itoa
+strmapi
+striteri
+putchar_fd
+putstr_fd
+putendl_fd
+putnbr_fd
+ 

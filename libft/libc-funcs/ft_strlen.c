@@ -1,5 +1,5 @@
 #include "libft.h"
-
+/* finds len of str */
 size_t	ft_strlen(const char *str)
 {
 	int		idx;

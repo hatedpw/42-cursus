@@ -1,6 +1,7 @@
 #include "libft.h"
-
-char	*ft_strrchar(const char *s, int c)
+/* searches fo rht elast occurance of a char
+* within the str. */
+char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 

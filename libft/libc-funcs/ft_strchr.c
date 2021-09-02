@@ -1,5 +1,5 @@
 #include "libft.h"
-
+/* finds the first char in a string */
 char	*ft_strchr(const char *s, int c)
 {
 	size_t	i;

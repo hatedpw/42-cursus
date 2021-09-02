@@ -1,5 +1,5 @@
 #include "libft.h"
-
+/* changes char to lower */
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
