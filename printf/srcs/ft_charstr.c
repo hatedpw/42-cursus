@@ -1,32 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_charstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: knicks <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/05 20:49:03 by knicks            #+#    #+#             */
-/*   Updated: 2022/01/05 20:49:39 by knicks           ###   ########.fr       */
+/*   Created: 2022/01/05 19:34:48 by knicks            #+#    #+#             */
+/*   Updated: 2022/01/05 20:08:19 by knicks           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-/* same as putnum just changed to use fd versions */
-void	ft_putnbr_fd(int n, int fd)
+void	ft_putcha(t_hold *argue)
 {
-	if (n == -2147483648)
-		ft_putstr_fd("-2147483648", fd);
-	else if (n < 0)
+	ft_putchar_fd(va_arg(argue->arg, int), 1);
+	argue->count++;
+}
+
+void	ft_string(t_hold *argue)
+{
+	int		len;
+	char	*str;
+
+	str = va_arg(argue->arg, char *);
+	if (!str)
 	{
-		ft_putchar_fd('-', fd);
-		ft_putnbr_fd(-n, fd);
-	}
-	else if (n >= 10)
-	{
-		ft_putnbr_fd(n / 10, fd);
-		ft_putchar_fd(n % 10 + '0', fd);
+		ft_putstr_fd("(null)", 1);
+		argue->count += 6;
 	}
 	else
-		ft_putchar_fd(n + '0', fd);
+	{
+		len = ft_strlen(str);
+		ft_putstr_fd(str, 1);
+		argue->count += len;
+	}
 }
