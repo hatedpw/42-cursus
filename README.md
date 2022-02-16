@@ -54,3 +54,14 @@ Final score: 100%
 Code a function that returns a line, read from file descriptor. 
 This project covers buffer sizes and macro usage more indepth. 
 
+# Project 5: Exam Rank 2
+Pass 100%
+Code inter and Get_next_line in exam condition. This meant on campus with no notes or internet access.
+
+# Project 6: PipeX 
+This program was created to mimic the pipe "|" command in shell.
+
+# Project 7: FdF
+
+
+ 
