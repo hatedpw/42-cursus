@@ -80,7 +80,4 @@ Final score: 100/100
 
 ![image](https://user-images.githubusercontent.com/87857751/154271048-0b08ff8a-1b30-41c8-b51c-8d20be548c23.png)
 
-# Project 7: FdF
-
-
  
